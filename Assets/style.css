@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+    background-color: #D5E1EF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.component{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 270px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.imageQRCode img{
+    width: 270px;
+    height: 270px;
+    border-radius: 20px;
+}
+.legendQRCode{
+    text-align: center;
+}
+.legendQRCode h3{
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+.legendQRCode p {
+    font-size: 16px;
+    color: #C5C4C9;
+    font-weight: 400;
+}
